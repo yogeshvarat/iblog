@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+:root{
+    --main-bg-color: brown;
+    --font1: 'PT Sans', sans-serif;
+    --font2: 'Quicksand', sans-serif;
+}
+.font1{
+    font-family : var(--font1);
+
+}
+.my-2{
+    margin-bottom:12px;
+    margin-top:12px;
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 8px 16px;
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: blanchedalmond;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+
+}
+.form-control{
+    color: beige;
+
+}
+.form-input{
+    padding:10px 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 13px;
+    font-family: var(--font2);
+}
+.form-box input,textarea{
+    width: 34vw;
+    padding: 5px 5px;
+    margin: 7px 0;
+    font-size:18px;
+    font-family: var(--font1);
+    border: 2px solid  rgb(0, 119, 103);
+    border-radius: 5px;
+
+    
+
+      
+
+}
+.contact-form{
+    height: 80vh;
+    max-width: 90vh;
+    margin: auto;
+
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 27px;
+}
